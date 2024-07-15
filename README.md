@@ -26,12 +26,13 @@ WeatherWise is a simple weather application built using React. It provides real-
 - HTML
 - CSS
 - API Used: OpenWeatherMap API
+  
 # Made By : Sumit Sharma
 # ScreenShots 
+![Screenshot 2024-07-16 044204](https://github.com/user-attachments/assets/f8f10c92-3620-4388-b315-f718211b1be9)
 
-![Screenshot (204)](https://github.com/SumitSharma2000/WeatherWise/assets/94536005/effafaa2-d467-4711-81f6-2bbb412a55dc)
+![Screenshot 2024-07-16 043745](https://github.com/user-attachments/assets/6f9653e3-8bfe-49f7-8e8e-7f1471b7aa9a)
 
-![Screenshot (203)](https://github.com/SumitSharma2000/WeatherWise/assets/94536005/3ba1a46f-4393-4efa-9858-2c3fdaa763b6)
 
-![Screenshot (205)](https://github.com/SumitSharma2000/WeatherWise/assets/94536005/2c685184-282a-419c-bc86-100f344867e5)
+
 
