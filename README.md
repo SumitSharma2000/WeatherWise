@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# WeatherWise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WeatherWise is a simple weather application built using React. It provides real-time weather updates based on the user's location input. Here's a breakdown of its features and how to use it:
 
-## Available Scripts
+# Features:
 
-In the project directory, you can run:
+- Real-time Weather Data: Fetches weather information from the OpenWeatherMap API, including temperature, weather condition, max/min temperature, wind speed, sunrise/sunset times, visibility, and geographic -coordinates.
+- Dynamic Background: Changes the background color based on the temperature, providing visual cues for warm and cold weather conditions.
+- Responsive Design: Designed to work seamlessly on both desktop and mobile devices.
+- Clean Interface: Presents weather information in a clear and intuitive layout, making it easy for users to understand.
+# How to Use:
 
-### `npm start`
+- Search: Enter the name of a city in the search bar and press Enter to retrieve weather data for that location.
+- Weather Details: Once a valid city name is entered, WeatherWise displays detailed weather information, including current temperature, weather condition, max/min temperature, wind speed, sunrise/sunset times, visibility, and geographic coordinates.
+- Background Color: The background color of the application changes dynamically based on the temperature, with warm colors indicating higher temperatures and cool colors indicating lower temperatures.
+# Getting Started:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Clone this repository to your local machine.
+- Install dependencies using npm install.
+- Obtain an API key from OpenWeatherMap and replace the placeholder in App.js with your API key.
+- Run the application using npm start.
+# Technologies Used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React JS
+- JavaScript (ES6+)
+- HTML
+- CSS
+- API Used: OpenWeatherMap API
+# Made By : Sumit Sharma
+# ScreenShots 
 
-### `npm test`
+![Screenshot (204)](https://github.com/SumitSharma2000/WeatherWise/assets/94536005/effafaa2-d467-4711-81f6-2bbb412a55dc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (203)](https://github.com/SumitSharma2000/WeatherWise/assets/94536005/3ba1a46f-4393-4efa-9858-2c3fdaa763b6)
 
-### `npm run build`
+![Screenshot (205)](https://github.com/SumitSharma2000/WeatherWise/assets/94536005/2c685184-282a-419c-bc86-100f344867e5)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
